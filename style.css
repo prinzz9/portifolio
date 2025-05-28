@@ -1,0 +1,82 @@
+/* Geral */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Hero Section */
+.hero {
+    background: radial-gradient(circle at top, #1f1f1f, #000000);
+    height: 85vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero a {
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #000;
+}
+
+.navbar-brand {
+    color: #00bfff !important;
+}
+
+.nav-link {
+    color: #aaa !important;
+}
+
+.nav-link:hover {
+    color: #00bfff !important;
+}
+
+/* Cards */
+.card {
+    transition: transform 0.3s ease;
+    border: 1px solid #333;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+}
+
+/* Inputs */
+input, textarea {
+    background-color: #1f1f1f !important;
+    color: #e0e0e0 !important;
+    border: 1px solid #333 !important;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #888;
+}
+
+input:focus, textarea:focus {
+    border-color: #00bfff !important;
+    box-shadow: none !important;
+}
+
+/* Botões */
+.btn-outline-light:hover {
+    background-color: #00bfff;
+    color: black;
+}
